@@ -8,16 +8,16 @@ function Welcome(props) {
 
 function App() {
   return (
-    <div className="App">
-      <h1>Form Pembelian Buah</h1>
+    <div className="App" style={{margin: '50px auto'}}>
+      <h1 style={{textAlign: 'center'}}>Form Pembelian Buah</h1>
       <form>
         <table className="table">
           <tr>
-            <td width="200"><label className="text-bold">Nama Pelanggan</label></td>
-            <td><input type="text" name="nama"></input></td>
+            <td width="200"><label style={{padding: '15px', fontWeight: 'bold'}}>Nama Pelanggan</label></td>
+            <td><input type="text" name="nama" style={{padding: '4px', border: '1px solid #aaa', borderRadius: '5px'}}></input></td>
           </tr>
           <tr>
-            <td><label className="text-bold">Daftar Item</label></td>
+            <td><label style={{padding: '15px', fontWeight: 'bold'}}>Daftar Item</label></td>
             <td>
               <input type="checkbox" name="semangka"></input><label>Semangka</label><br></br>
               <input type="checkbox" name="jeruk"></input><label>Jeruk</label><br></br>
@@ -27,7 +27,7 @@ function App() {
             </td>
           </tr>
           <tr>
-            <td><input type="submit" value="Kirim"></input></td>
+            <td><input type="submit" value="Kirim" style={{padding: '2px auto', borderColor: '#000', borderRadius:'100px'}}></input></td>
           </tr>
         </table>
       </form>

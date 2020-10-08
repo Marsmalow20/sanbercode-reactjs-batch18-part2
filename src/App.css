@@ -1,28 +1,3 @@
-h1 {
-  text-align: center;
-}
-
-label {
-  padding: 15px;
-}
-
-input[type=text] {
-  padding: 4px;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-}
-
-input[type=submit] {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-color: #000;
-  border-radius: 100px;
-}
-
-.text-bold {
-  font-weight: bold;
-}
-
 .App {
   margin: 50px;
   padding: 20px;
