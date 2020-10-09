@@ -1,9 +1,10 @@
+body {
+  background-color: #eee;
+}
+
 .App {
-  margin: 50px;
+  margin: 0px;
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 40%;
 }
 
 .App-logo {
