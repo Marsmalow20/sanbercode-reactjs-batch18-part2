@@ -3,13 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 import Buah from './Tugas-9/Buah';
 import TblHargaBuah from './Tugas-10/TblHargaBuah';
+import Timer from './Tugas-11/Timer';
 
 function App() {
   return (
     <div className="App">
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
-      <Buah />
-      <TblHargaBuah />
+      <Timer/>
+      <Buah/>
+      <TblHargaBuah/>      
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
