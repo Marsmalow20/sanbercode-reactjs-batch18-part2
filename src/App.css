@@ -41,3 +41,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.warna-table:nth-child(odd) {
+  background: #c9f5da;
+}
+
+.warna-table:nth-child(even) {
+  background: #94E8B4;
+}
