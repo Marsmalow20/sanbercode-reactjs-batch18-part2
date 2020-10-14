@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Buah from './Tugas-9/Buah';
-import TblHargaBuah from './Tugas-10/TblHargaBuah';
-import Timer from './Tugas-11/Timer';
-import List from './Tugas-12/List';
+// import Buah from './Tugas-9/Buah';
+// import TblHargaBuah from './Tugas-10/TblHargaBuah';
+// import Timer from './Tugas-11/Timer';
+import List from './Tugas-13/List';
 
 function App() {
   return (
