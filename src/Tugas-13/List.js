@@ -62,7 +62,7 @@ const List = () => {
     
 
     const handleEdit = (event) =>{
-        let idBuah= parseInt(event.target.value);
+        let idBuah = parseInt(event.target.value);
         let buah = dataHargaBuah.find((x)=> x.id === idBuah)
     
         setInputName({id: idBuah, name: buah.name});

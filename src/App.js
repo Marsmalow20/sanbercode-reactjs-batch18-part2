@@ -4,15 +4,17 @@ import './App.css';
 // import Buah from './Tugas-9/Buah';
 // import TblHargaBuah from './Tugas-10/TblHargaBuah';
 // import Timer from './Tugas-11/Timer';
-import List from './Tugas-13/List';
+// import List from './Tugas-13/List';
+import Buah from './Tugas-14/Buah';
 
 function App() {
   return (
     <div className="App">
 
-      <List/>
-
-      {/* <Buah/>
+      <Buah/>
+      
+      {/* <List/>
+      <Buah/>
       <TblHargaBuah/>
       <Timer/> */}
 
