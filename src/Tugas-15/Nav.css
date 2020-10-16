@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.light-mode {
+    background-color: #fff;
+}
+
+.light-mode nav {
+    background-color: #ccc;
+}
+
+.dark-mode {
+    background-color: #1a1919;
+    color: #999;
+}
+
+.dark-mode nav {
+    background-color: #1b2938;
+}
+
+.dark-mode ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: rgb(115, 115, 115);
+}

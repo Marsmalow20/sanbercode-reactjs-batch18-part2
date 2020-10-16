@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from "axios"
 
-const List = () => {
+const ListForm = () => {
     const [dataHargaBuah, setdataHargaBuah] = useState(null);
     const [inputName, setInputName] =  useState({name: "", id: null});
     const [inputPrice, setInputPrice] =  useState({price: "", id: null});
@@ -146,4 +146,4 @@ const List = () => {
     )
 }
 
-export default List
+export default ListForm

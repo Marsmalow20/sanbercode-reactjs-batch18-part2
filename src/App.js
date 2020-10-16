@@ -1,17 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 // import Buah from './Tugas-9/Buah';
 // import TblHargaBuah from './Tugas-10/TblHargaBuah';
 // import Timer from './Tugas-11/Timer';
-// import List from './Tugas-13/List';
-import Buah from './Tugas-14/Buah';
+// import ListForm from './Tugas-13/ListForm';
+// import Buah from './Tugas-14/Buah';
+import { BrowserRouter as Router } from "react-router-dom";
+import Nav from './Tugas-15/Nav';
+import Routes from './Tugas-15/Routes';
+
 
 function App() {
   return (
     <div className="App">
-
-      <Buah/>
+      <Router>
+        <Nav/>
+        <Routes/>
+      </Router>
       
       {/* <List/>
       <Buah/>

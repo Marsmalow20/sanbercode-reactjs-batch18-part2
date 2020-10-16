@@ -62,15 +62,15 @@ const FormBuah = () => {
                     <table>
                         <tr>
                             <td style={{width: '100px'}}><label>Name</label></td>
-                            <td style={{width: '300px'}}><input type="text" onChange={handleChangeName} value={inputForm.name}/></td>
+                            <td style={{width: '300px'}}><input type="text" onChange={handleChangeName} value={inputForm.name} style={{width: '100%', border: '0px solid', borderBottom: '1px solid #72BDA3', padding: '10px'}} placeholder={'Nama Buah'}/></td>
                         </tr>
                         <tr>
                             <td style={{width: '100px'}}><label>Price</label></td>
-                            <td style={{width: '300px'}}><input type="text" onChange={handleChangePrice} value={inputForm.price}/></td>
+                            <td style={{width: '300px'}}><input type="text" onChange={handleChangePrice} value={inputForm.price} style={{width: '100%', border: '0px solid', borderBottom: '1px solid #72BDA3', padding: '10px'}} placeholder={'Harga Buah'}/></td>
                         </tr>
                         <tr>
                             <td style={{width: '100px'}}><label>Weight</label></td>
-                            <td style={{width: '300px'}}><input type="text" onChange={handleChangeWeight} value={inputForm.weight}/></td>
+                            <td style={{width: '300px'}}><input type="text" onChange={handleChangeWeight} value={inputForm.weight} style={{width: '100%', border: '0px solid', borderBottom: '1px solid #72BDA3', padding: '10px'}}/></td>
                         </tr>
                         <tr>
                             <td></td>

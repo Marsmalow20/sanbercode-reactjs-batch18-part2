@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Buah() {
+function DataBuah() {
     return (
         <>
             <div style={{margin: 'auto', border: '1px solid #aaa', borderRadius: '10px', width: '40%', padding: '20px', backgroundColor: '#FFF'}}>
@@ -31,4 +31,4 @@ function Buah() {
     );
   }
 
-export default Buah
+export default DataBuah
